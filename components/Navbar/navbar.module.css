@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.tabs {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+.tab:hover {
+  background-color: #555;
+}
+
+.active {
+  position: relative;
+}
+
+.slider {
+  height: 3px;
+  background-color: #ff6b6b;
+  width: 0;
+  transition: width 0.2s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.tab.Home.active .slider {
+  width: 25%;
+}
+
+.tab.Projects.active .slider {
+  width: 25%;
+}
+
+.tab.Architectures.active .slider {
+  width: 25%;
+}
+
+.tab.Contact.active .slider {
+  width: 25%;
+}

@@ -1,0 +1,31 @@
+.archlist {
+  list-style: none;
+  padding: 0;
+}
+
+.architem {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.archimage {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.archtitle {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.archcontainer {
+  color: whitesmoke;
+  padding: 20px;
+}
+.archinfo p {
+  color: #666;
+  font-size: 16px;
+}

@@ -1,0 +1,65 @@
+.homePage {
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+.name {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.stacks {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  color: whitesmoke;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: -5;
+}
+.downloadbutton {
+  align-self: center;
+  margin: 10px;
+  padding: 8px;
+  color: white;
+  background-color: #1da1f2;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.centeredContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.roundedImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.techStacks {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.techStacks p {
+  font-size: 22px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+}

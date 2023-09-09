@@ -1,0 +1,31 @@
+.projectlist {
+  list-style: none;
+  padding: 0;
+}
+
+.projectitem {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.projectimage {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.projectitle {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.projectscontainer {
+  color: whitesmoke;
+  padding: 20px;
+}
+.project-info p {
+  color: #666;
+  font-size: 16px;
+}
