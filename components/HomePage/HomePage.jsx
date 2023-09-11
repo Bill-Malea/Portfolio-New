@@ -2,6 +2,10 @@ import React from "react";
 import styles from "./homepage.module.css";
 
 const HomePage = () => {
+  const openProjectInNewTab = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <div className={styles.homePage}>
       <div className={styles.centeredContent}>
@@ -16,13 +20,19 @@ const HomePage = () => {
           <ul className={styles.stacks}>
             <li>Flutter</li>
             <li>React</li>
+            <li>Next</li>
             <li>Node.js</li>
             <li>Firebase</li>
             <li>Aws</li>
             <li>Serverless</li>
           </ul>
-          <button className={styles.downloadbutton}>Download Cv</button>
-          <p> Languages:</p>
+          <button
+            className={styles.downloadbutton}
+            onClick={() => openProjectInNewTab("https://twitter.com/billmalea")}
+          >
+            Download Cv
+          </button>
+          <p> Languages</p>
           <ul className={styles.stacks}>
             <li>Javascript</li>
             <li>Dart</li>
@@ -30,27 +40,30 @@ const HomePage = () => {
           </ul>
         </div>
         <div className={styles.socialIcons}>
-          <a href="https://twitter.com/your_twitter">
-            <img
-              src={"/assets/twitter.png"}
-              alt="Twitter"
-              className={styles.icon}
-            />
-          </a>
-          <a href="https://github.com/your_github">
-            <img
-              src={"/assets/github.png"}
-              alt="GitHub"
-              className={styles.icon}
-            />
-          </a>
-          <a href="https://linkedin.com/in/your_linkedin">
-            <img
-              src={"/assets/linkedin.png"}
-              alt="LinkedIn"
-              className={styles.icon}
-            />
-          </a>
+          <img
+            onClick={() => openProjectInNewTab("https://twitter.com/billmalea")}
+            src={"/assets/twitter.png"}
+            alt="Twitter"
+            className={styles.icon}
+          />
+
+          <img
+            onClick={() => openProjectInNewTab("https://github.com/Bill-Malea")}
+            src={"/assets/github.png"}
+            alt="GitHub"
+            className={styles.icon}
+          />
+
+          <img
+            onClick={() =>
+              openProjectInNewTab(
+                "https://www.linkedin.com/in/bill-malea-b56b19124/"
+              )
+            }
+            src={"/assets/linkedin.png"}
+            alt="LinkedIn"
+            className={styles.icon}
+          />
         </div>
       </div>
     </div>

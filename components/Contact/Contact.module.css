@@ -1,0 +1,77 @@
+.contactContainer {
+  width: 600px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.inputcomponent {
+  margin-top: 5px;
+  padding: 15px;
+  width: 80%;
+  display: flex;
+  border-radius: 5px;
+  border: 0.6px solid gray;
+  color: black;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+}
+
+.label {
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sendbutton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container {
+  flex: 1;
+
+  color: white;
+}
+
+.container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .inputcomponent {
+    width: 80%;
+  }
+}

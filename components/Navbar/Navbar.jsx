@@ -42,14 +42,16 @@ const Navbar = () => {
             Architectures
           </li>
         </Link>
-        <li
-          className={`${styles.tab} ${
-            selectedTab === "Contact" && styles.active
-          }`}
-          onClick={() => handleTabClick("Contact")}
-        >
-          Contact
-        </li>
+        <Link href={"/contact"}>
+          <li
+            className={`${styles.tab} ${
+              selectedTab === "Contact" && styles.active
+            }`}
+            onClick={() => handleTabClick("Contact")}
+          >
+            Contact
+          </li>
+        </Link>
       </ul>
       <div className={styles.slider}></div>
     </div>

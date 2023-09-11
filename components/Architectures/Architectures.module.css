@@ -18,14 +18,15 @@
 
 .archtitle {
   margin-bottom: 5px;
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: 200;
 }
 .archcontainer {
-  color: whitesmoke;
+  color: #007bff;
   padding: 20px;
 }
 .archinfo p {
   color: #666;
-  font-size: 16px;
+  font-weight: 200;
+  font-size: 13px;
 }

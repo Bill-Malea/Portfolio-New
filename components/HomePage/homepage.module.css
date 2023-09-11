@@ -4,19 +4,22 @@
   align-items: center;
 }
 .name {
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
 .stacks {
-  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin: 0;
   display: flex;
   flex-direction: row;
-  gap: 7px;
+  gap: 10px;
   color: whitesmoke;
   list-style-type: disc;
   list-style-position: inside;
-  padding-left: -5;
+  padding-left: 0;
+  justify-content: center;
 }
 .downloadbutton {
   align-self: center;
@@ -34,7 +37,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  height: 100vh;
 }
 
 .roundedImage {
@@ -51,15 +55,26 @@
 }
 .techStacks p {
   font-size: 22px;
+  color: #1da1f2;
+  font-weight: "100";
 }
 
 .socialIcons {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .icon {
   width: 32px;
   height: 32px;
   margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .stacks {
+    list-style: none;
+    max-width: 80%;
+    padding-left: 10px;
+  }
 }

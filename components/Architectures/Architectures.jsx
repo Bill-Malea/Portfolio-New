@@ -4,16 +4,9 @@ import styles from "./Architectures.module.css";
 const projectsData = [
   {
     id: 1,
-    title: "Mpesa Payment",
-    description: "Description of Project 1",
-    imageUrl: "/assets/whatsapp.png",
-    url: "https://project1.example.com",
-  },
-  {
-    id: 2,
     title: "Ramii Architecture",
     description: "Description of Project 2",
-    imageUrl: "/assets/twitter.png",
+    imageUrl: "/assets/ramii.png",
     url: "https://project2.example.com",
   },
 ];

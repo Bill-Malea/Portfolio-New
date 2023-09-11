@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #333;
+  background-color: black;
   color: white;
   display: flex;
   justify-content: flex-end;
@@ -18,19 +18,17 @@
   cursor: pointer;
   padding: 10px;
   text-align: center;
-}
-
-.tab:hover {
-  background-color: #555;
+  font-weight: 100;
 }
 
 .active {
   position: relative;
+  background-color: #1da1f2;
+  border-radius: 3px;
 }
 
 .slider {
   height: 3px;
-  background-color: #ff6b6b;
   width: 0;
   transition: width 0.2s ease;
   position: absolute;
