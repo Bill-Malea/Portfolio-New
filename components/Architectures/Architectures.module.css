@@ -10,23 +10,23 @@
 }
 
 .archimage {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
   margin-right: 20px;
 }
 
 .archtitle {
+  color: #1da1f2;
   margin-bottom: 5px;
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 17px;
 }
 .archcontainer {
-  color: #007bff;
+  color: #1da1f2;
   padding: 20px;
 }
 .archinfo p {
-  color: #666;
-  font-weight: 200;
+  color: #555;
+
   font-size: 13px;
 }
