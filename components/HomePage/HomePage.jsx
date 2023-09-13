@@ -28,7 +28,11 @@ const HomePage = () => {
           </ul>
           <button
             className={styles.downloadbutton}
-            onClick={() => openProjectInNewTab("https://twitter.com/billmalea")}
+            onClick={() =>
+              openProjectInNewTab(
+                "https://drive.google.com/file/d/1Gx3gqegcNs8DtlqygrDCghvdM0nEDYKI/view?usp=drive_link"
+              )
+            }
           >
             Download Cv
           </button>
