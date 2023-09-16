@@ -6,7 +6,7 @@ const projectsData = [
     id: 1,
     title: "Ramii Architecture",
     description:
-      "A serverless Architecture Running Ramii Wen and Ramii android platforms",
+      "A serverless Architecture Running Ramii Website and Ramii Android platforms",
     imageUrl: "/assets/ramii.png",
     url: "https://project2.example.com",
   },
