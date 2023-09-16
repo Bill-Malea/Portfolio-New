@@ -5,9 +5,17 @@ const projectsData = [
   {
     id: 1,
     title: "Ramii Architecture",
-    description: "Description of Project 2",
+    description:
+      "A serverless Architecture Running Ramii Wen and Ramii android platforms",
     imageUrl: "/assets/ramii.png",
     url: "https://project2.example.com",
+  },
+  {
+    id: 2,
+    title: "BetSafi Architecture",
+    description: "A Serveless architecture for A betting Site ",
+    imageUrl: "/assets/betsafi.png",
+    url: "https://github.com/Bill-Malea/BetSafi",
   },
 ];
 
